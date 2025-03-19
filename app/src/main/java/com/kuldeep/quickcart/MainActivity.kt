@@ -16,7 +16,6 @@ import com.kuldeep.quickcart.ui.theme.QuickCartTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContent {
             QuickCartTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
